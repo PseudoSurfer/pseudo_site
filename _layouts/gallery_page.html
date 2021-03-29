@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="banner-box">
+  <div class="banner-text bg-one"id="gallery-banner">
+    <h3><a href="/{{ site.gallery.dir }}">{{ page.title }}</a></h3>
+  </div>
+</div>
+<div class="flex">
+  {% for image in page.images %}
+      <div class="gallery-image-wrapper">
+          <a id="gallery-name" name="{{ image.name }}"></a>
+          <a href="{{ image.name }}"{% if site.gallery.lightbox %} rel="lightbox[{{ page.gallery }}]"{% endif %}>
+              <img class="gallery-image" src="thumbs/{{ image.name }}" />
+      </div>
+  {% endfor %}
+</div>

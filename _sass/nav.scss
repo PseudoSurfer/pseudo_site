@@ -1,0 +1,80 @@
+
+    :root {
+      --border-size: 0.125rem;
+      --duration: 250ms;
+      --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+      --font-family: "Rubik";
+      --shadow: rgba(0, 0, 0, 0.1);
+      --space: 0.5rem;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    nav {
+      height: 5vh;
+      margin: -2% 10vw;
+      display: grid;
+      place-items: center;
+      padding: calc(var(--space) * 2);
+      max-width: 75vw;
+    }
+
+    .multi-button {
+      display: flex;
+      width: 100%;
+    }
+
+    .multi-button button {
+      flex-grow: 1;
+      cursor: pointer;
+      position: relative;
+      padding:
+        calc(var(--space) / 1.125)
+        var(--space)
+        var(--space);
+      border: var(--border-size) solid var(--color-four);
+      color: var(--color-four);
+      background-color: var(--color-three);
+      font-size: 1em;
+      font-weight: 400;
+      font-family: var(--font-family);
+      text-transform: lowercase;
+      text-shadow: var(--shadow) 2px 2px;
+      transition: flex-grow var(--duration) var(--ease);
+    }
+
+    .multi-button button + button {
+      border-left: var(--border-size) solid var(--color-one);
+      margin-left: calc(var(--border-size) * -1);
+    }
+
+    .multi-button button:hover,
+    .multi-button button:focus {
+      flex-grow: 2;
+      color: #654ea3;
+      outline: none;
+      text-shadow: none;
+      background-color: var(--color-two);
+    }
+
+    .multi-button button:focus {
+      outline: var(--border-size) dashed var(--color-one);
+      outline-offset: calc(var(--border-size) * -3);
+    }
+
+    .multi-button button:hover button:focus:not(:hover) {
+      flex-grow: 1;
+      color: var(--color-two);
+      background-color: var(--color-one);
+    }
+
+    .multi-button button:active {
+      transform: translateY(var(--border-size));
+    }
+
+    .current {
+      color: var(--color-zero);
+      background-color: var(--color-four);
+    }

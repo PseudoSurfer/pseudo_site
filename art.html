@@ -1,0 +1,22 @@
+---
+layout: default
+title: Artists
+---
+<div class="banner-box">
+  <div class="banner-text bg-one">
+    <h1>Artists</h1>
+  </div>
+</div>
+<div class="regular-content">
+  <ul>
+    {% for creator in site.creators %}
+      <li>
+        <h2><a href="{{ creator.url }}"id="creator_name">{{ creator.name }}</a></h2>
+        <h3>{{ creator.type }}</h3>
+        <p>{{ creator.content | markdownify }}</p>
+      </li>
+      <div class="spacer">
+      </div>
+    {% endfor %}
+  </ul>
+</div>

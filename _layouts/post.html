@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="banner-box">
+    <div class="banner-text bg-one">
+      <h4>{{ page.title }}</h4>
+    </div>
+</div>
+<div class="regular-content">
+  <h4>
+      {{ page.date | date_to_string }}
+      {% assign creator = site.creators | where: 'short_name', page.creator | first %}
+      {% if creator %}
+          <a href="{{ creator.url }}"id="creator-name">{{ creator.name }}</a>
+      {% endif %}
+  </h4>
+
+  {{ content }}
+</div>

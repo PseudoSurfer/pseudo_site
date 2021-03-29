@@ -1,0 +1,7 @@
+<nav>
+  <div class="multi-button">
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}id="current"{% endif %}><button>{{ item.name }}</button></a>
+    {% endfor %}
+  </div>
+</nav>
