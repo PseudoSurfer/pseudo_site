@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2021-04-01T14:52:59+01:00</updated><id>http://127.0.0.1:4000/feed.xml</id><title type="html">Pseudo Surfer</title><subtitle>A portfolio site for my photography and other musings
+</subtitle><entry><title type="html">Adding a hype banner</title><link href="http://127.0.0.1:4000/2021/04/01/Adding-a-Hype-banner.html" rel="alternate" type="text/html" title="Adding a hype banner" /><published>2021-04-01T00:00:00+01:00</published><updated>2021-04-01T00:00:00+01:00</updated><id>http://127.0.0.1:4000/2021/04/01/Adding%20a%20Hype%20banner</id><content type="html" xml:base="http://127.0.0.1:4000/2021/04/01/Adding-a-Hype-banner.html">&lt;p&gt;I’ve changed the home page by adding an animated banner.&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://tumult.com/hype/&quot;&gt;Tumult Hype&lt;/a&gt; to create a HTML animation for
+my home page banner.
+It’s pretty straightforward figuring out how to use Hype if you’ve used
+After Effects or other animation type software in the past.&lt;/p&gt;
+
+&lt;p&gt;Adding your final piece to your Jekyll set-up is a little more difficult. Hype uses vanilla javascript and it outputs a minified version of the javascript file which helps it to load faster. However all the paths to the images, sounds, svg, and javascript files are hidden inside the minified javascript file which requires you to go in and add “/assets/images” to the paths of each file. I think I had a total of six which need to be changed.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve changed the home page by adding an animated banner.</summary></entry><entry><title type="html">Finally all set up</title><link href="http://127.0.0.1:4000/2021/03/13/Finally-all-set-up.html" rel="alternate" type="text/html" title="Finally all set up" /><published>2021-03-13T00:00:00+00:00</published><updated>2021-03-13T00:00:00+00:00</updated><id>http://127.0.0.1:4000/2021/03/13/Finally%20all%20set%20up</id><content type="html" xml:base="http://127.0.0.1:4000/2021/03/13/Finally-all-set-up.html">&lt;p&gt;Pseudo is my Photography side of my site.&lt;/p&gt;
+
+&lt;p&gt;It’s taken me 5 months and 4 days to get this all set up and ready to start writing posts.
+Actually with Covid shut-downs and immigrating to Scotland all tied in, it’s only actually
+taken me a week to figure this out. I’ve dabbled with Ruby for more than a few years on and
+off, most of the time trying to figure out Rails at the same time.
+I found Sinatra a lot more adaptable to my simple needs Jekyll appears to tick all my boxes.
+Free static site hosting on Github pages makes all this a no brainer.&lt;/p&gt;</content><author><name></name></author><summary type="html">Pseudo is my Photography side of my site.</summary></entry><entry><title type="html">Sudo is 3d art</title><link href="http://127.0.0.1:4000/2021/03/13/Sudo-is-3D-art.html" rel="alternate" type="text/html" title="Sudo is 3d art" /><published>2021-03-13T00:00:00+00:00</published><updated>2021-03-13T00:00:00+00:00</updated><id>http://127.0.0.1:4000/2021/03/13/Sudo%20is%203D%20art</id><content type="html" xml:base="http://127.0.0.1:4000/2021/03/13/Sudo-is-3D-art.html">&lt;p&gt;Sudo is my 3D artwork side of my site.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using Blender on and off for about 10 years but it’s really only been
+since version 2.5 onwards that I’ve tried to really get into it.&lt;/p&gt;
+
+&lt;p&gt;I really enjoy polygon modelling. I used Rhino for a short period several years ago
+and I know that I really enjoyed using its nurbs and bezier approach so I guess
+it just happens that I enjoy whatever tool I have in my hands.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sudo is my 3D artwork side of my site.</summary></entry><entry><title type="html">Getting set up</title><link href="http://127.0.0.1:4000/2020/09/09/Getting-set-up.html" rel="alternate" type="text/html" title="Getting set up" /><published>2020-09-09T00:00:00+01:00</published><updated>2020-09-09T00:00:00+01:00</updated><id>http://127.0.0.1:4000/2020/09/09/Getting%20set%20up</id><content type="html" xml:base="http://127.0.0.1:4000/2020/09/09/Getting-set-up.html">&lt;p&gt;It’s time to set this site up using Jekyll hosted on Github Pages.&lt;/p&gt;
+
+&lt;p&gt;I hope this turns out well.&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s time to set this site up using Jekyll hosted on Github Pages.</summary></entry></feed>
