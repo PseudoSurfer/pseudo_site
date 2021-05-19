@@ -1,116 +1,128 @@
 <!doctype html>
 <html>
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="chrome=1,ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog &middot; Pseudo Sufer</title>
 
-  <title>Blog</title>
+  <!-- Bootstrap must load first for galleries to work-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <!-- links -->
+  <link rel="stylesheet" href="/assets/css/photoswipe.css">
+  <link rel="stylesheet" href="/assets/css/default-skin.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
 
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico">
+  <link rel="sudo_logo" type="image/svg" href="/assets/images/sudo_logo.svg">
 
+  <!-- Nav Animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap)";
     rel="stylesheet"
     type="text/css"
   />
 
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Pseudo Surfer" />
-  <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Blog | Pseudo Surfer</title>
-<meta name="generator" content="Jekyll v3.9.0" />
+  <!-- font awesome
+  <script src="https://kit.fontawesome.com/0b9db59ad8.js" crossorigin="anonymous"></script> -->
+
+  <!-- feed links -->
+  <link rel="alternate" href="https://pseudosurfer.com/feed.xml" type="application/rss+xml" title="Pseudo Sufer">
+  <link type="application/atom+xml" rel="alternate" href="https://pseudosurfer.com/feed.xml" title="Pseudo Sufer" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Blog | Pseudo Sufer</title>
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Blog" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A portfolio site for my photography and other musings" />
-<meta property="og:description" content="A portfolio site for my photography and other musings" />
-<link rel="canonical" href="http://localhost:4000/blog.html" />
-<meta property="og:url" content="http://localhost:4000/blog.html" />
-<meta property="og:site_name" content="Pseudo Surfer" />
+<meta name="description" content="The personal site of Justin Bennewith. Pseudo Sufer is the name for photography and Sudo Surfer is the name for 3D and other artworks." />
+<meta property="og:description" content="The personal site of Justin Bennewith. Pseudo Sufer is the name for photography and Sudo Surfer is the name for 3D and other artworks." />
+<link rel="canonical" href="https://pseudosurfer.com/blog.html" />
+<meta property="og:url" content="https://pseudosurfer.com/blog.html" />
+<meta property="og:site_name" content="Pseudo Sufer" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Blog" />
+<meta name="twitter:site" content="@bennewith" />
 <script type="application/ld+json">
-{"headline":"Blog","description":"A portfolio site for my photography and other musings","url":"http://localhost:4000/blog.html","@type":"WebPage","@context":"https://schema.org"}</script>
+{"headline":"Blog","url":"https://pseudosurfer.com/blog.html","@type":"WebPage","description":"The personal site of Justin Bennewith. Pseudo Sufer is the name for photography and Sudo Surfer is the name for 3D and other artworks.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-
 
 </head>
 
   <body>
-    <nav>
-  <div class="multi-button">
-    
-      <a href="/" ><button>Home</button></a>
-    
-      <a href="/blog.html" id="current"><button>Blog</button></a>
-    
-      <a href="/art.html" ><button>Art</button></a>
-    
-      <a href="/photos.html" ><button>photos</button></a>
-    
-  </div>
+    <div class="top-bar bg-two"></div>
+    <nav class="nav-bar">
+    <div class="container main-nav animate__animated animate__fadeIn">
+      
+      <a href="/" >Home</a>
+      
+      <a href="/blog.html" id="current">Blog</a>
+      
+      <a href="/art.html" >Art</a>
+      
+      <a href="/gphotos.html" >Photos</a>
+      
+    </div>
 </nav>
 
-    <main>
-      <article><div class="banner-box">
+    <main class="content">
+      <div class="banner-box">
   <div class="banner-text bg-one">
     <h1>Latest Posts</h1>
   </div>
 </div>
 <div class="regular-content">
+  <object data="/assets/images/sudo_logo.svg" type="image/svg+xml" class="sudo-logo"></object>
   <ul>
     
       <li>
-        <h4>16 Apr 2021 <a href="/2021/04/16/Adding-my-Google-Photos.html"id="post_title">Adding my google photos</a></h4>
-        <p>Rather than host images locally I’ve found a way of adding my Google Photos into my site.</p>
-
+        <h4>24 Apr 2021 <a href="/2021/04/24/Starting-again.html"id="post_title">Starting Again</a></h4>
+        <p>After an accident, I’ve lost access to my hard drive so while I wait to access it, I’m starting again.</p>
 
       </li>
-      <div class="spacer">
-      </div>
+      <div class="spacer"></div>
       
       <li>
         <h4>01 Apr 2021 <a href="/2021/04/01/Adding-a-Hype-banner.html"id="post_title">Adding a hype banner</a></h4>
         <p>I’ve changed the home page by adding an animated banner.</p>
 
-
       </li>
-      <div class="spacer">
-      </div>
+      <div class="spacer"></div>
       
       <li>
         <h4>13 Mar 2021 <a href="/2021/03/13/Sudo-is-3D-art.html"id="post_title">Sudo is 3d art</a></h4>
         <p>Sudo is my 3D artwork side of my site.</p>
 
-
       </li>
-      <div class="spacer">
-      </div>
+      <div class="spacer"></div>
       
       <li>
         <h4>13 Mar 2021 <a href="/2021/03/13/Finally-all-set-up.html"id="post_title">Finally all set up</a></h4>
         <p>Pseudo is my Photography side of my site.</p>
 
-
       </li>
-      <div class="spacer">
-      </div>
+      <div class="spacer"></div>
       
       <li>
         <h4>09 Sep 2020 <a href="/2020/09/09/Getting-set-up.html"id="post_title">Getting set up</a></h4>
         <p>It’s time to set this site up using Jekyll hosted on Github Pages.</p>
 
-
       </li>
-      <div class="spacer">
-      </div>
+      <div class="spacer"></div>
       
   </ul>
 </div>
-</article>
+
     </main>
-    <footer class="footer">
-	<p>By <a href="/index.html">Justin</a></p>
-	
+    <footer class="footer bg-two">
+	<div class="footer-box ">
+		<p>This is just a simple test</p>
+		<p>Another simple test</p>
+		<p>By <a href="/index.html">Justin</a></p>
+	</div>
 </footer>
 
   </body>
